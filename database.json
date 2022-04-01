@@ -1,0 +1,10 @@
+{
+  "dev": {
+    "driver": "pg",
+    "host": "localhost",
+    "port": 15533,
+    "user": "postgres",
+    "password": "postgres",
+    "database": "pgh_learn"
+  }
+}
