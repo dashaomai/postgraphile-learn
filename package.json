@@ -1,0 +1,21 @@
+{
+  "name": "postgraphile_learn",
+  "version": "1.0.0",
+  "description": "study case of post-graphile",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "postgres",
+    "graphql",
+    "graphile",
+    "learn"
+  ],
+  "author": "Buddy",
+  "license": "ISC",
+  "dependencies": {
+    "db-migrate": "^0.11.13",
+    "db-migrate-pg": "^1.2.2"
+  }
+}
