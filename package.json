@@ -4,6 +4,9 @@
   "description": "study case of post-graphile",
   "main": "index.js",
   "scripts": {
+    "dmcreate": "npx db-migrate create ",
+    "dmup": "npx db-migrate up",
+    "dmdown": "npx db-migrate down",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
