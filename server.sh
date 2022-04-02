@@ -6,4 +6,6 @@ npx postgraphile \
   --allow-explain \
   --watch \
   --owner-connection postgres://postgres:postgres@localhost:15533/pgh_learn \
-  --default-role learn_anonymous
+  --default-role learn_anonymous \
+  --jwt-token-identifier learn.jwt \
+  --jwt-secret secret_for_jwts
