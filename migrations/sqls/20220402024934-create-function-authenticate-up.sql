@@ -9,7 +9,7 @@ BEGIN
     FROM
         learn_private.person_account
     WHERE
-        person_acount.email = authenticate.email;
+        person_account.email = authenticate.email;
     IF account.password_hash = crypt(password, account.password_hash) THEN
         RETURN ('learn_person',
             account.person_id,
